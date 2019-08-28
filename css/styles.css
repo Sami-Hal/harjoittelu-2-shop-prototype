@@ -38,10 +38,10 @@
 	grid-row: 4 / 5;
 	grid-column: 1 / 6;
 	display: grid;
-	grid-auto-rows: 400px;
-	grid-template-columns: repeat(auto-fill, 400px);
 	justify-content: center;
 	grid-gap: 40px;
+	/* grid-auto-rows: 400px; */
+	grid-template-columns: repeat(auto-fill, 400px);
 }
 .item4 img{
 	width: 100%;
