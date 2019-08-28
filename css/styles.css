@@ -54,12 +54,13 @@ body{
 	justify-content: center;
 	padding-left: 4.5%;
 	padding-right: 4.5%;
+	grid-gap: 0px 20px;
 }
 .button {
 	background: #c3c3c3;
 	border-radius: 15px;
 	border:1px solid #6e6e6e;
-	display: inline-block;
+	/* display: inline-block; */
 	padding: 5px 5px;
 	height: 90px;
 	margin: 5px 0 5px 0;
@@ -103,7 +104,6 @@ Button:active {
 	background: #191919;
 	height: 100px;
 	text-align: center;
-	padding-top: 25px;
 }
 .item5 > *{
 	width: 25%;
